@@ -1,0 +1,33 @@
+{
+  "reg_no": {
+    "column_name": "reg_no",
+    "processing": "integer",
+    "IsPrimary": "True"
+  },
+  "student_name": {
+    "column_name": "student_name",
+    "audio_processing": "name",
+    "video_processing": "name"
+  },
+  "parent_name": {
+    "column_name": "parent_name",
+    "audio_processing": "name",
+    "video_processing": "name_respect"
+  },
+  "scholarship": {
+    "column_name": "scholarship_school",
+    "audio_processing": "percentage_readout",
+    "video_processing": "percentage",
+    "language": "en-IN"
+  },
+  "phone_number": {
+    "column_name": "phone_number",
+    "processing": "integer",
+    "language": "en-IN"
+  },
+  "alt_phone_number": {
+    "column_name": "alt_phone_number",
+    "processing": "integer",
+    "language": "en-IN"
+  }
+}

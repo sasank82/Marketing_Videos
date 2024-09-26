@@ -1,0 +1,6 @@
+Greetings {name},
+
+Based on your cibil Score, we are thrilled to inform you that you've been pre-approved for a loan of  upto {amount_in_words} Rupees. This offer is designed to support growth of {business_name}.
+To explore this opportunity further, please contact us by clicking below.
+
+We look forward to connecting with you soon!

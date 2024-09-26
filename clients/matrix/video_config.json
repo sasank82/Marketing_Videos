@@ -1,0 +1,123 @@
+{
+  "overlays": [
+    {
+      "name": "parent_name_1",
+      "field_name": "parent_name",
+      "position": { "x": 84, "y": 900 },
+      "dimensions": { "width": 900, "height": 150 },
+      "font": "Arial-Bold",
+      "font_size": 100,
+      "color": "#FFFFFF",
+      "default_time": 0.5,
+      "show_till": 1.66,
+      "animated_box": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "student_name_display",
+      "field_name": "student_name",
+      "position": { "x": 84, "y": 450 },
+      "dimensions": { "width": 900, "height": 150 },
+      "font": "Arial-Bold",
+      "font_size": 100,
+      "color": "Yellow",
+      "default_time": 6.1,
+      "show_till": 9,
+      "animated_box": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "student_name_2_display",
+      "field_name": "student_name",
+      "position": { "x": 215, "y": 700 },
+      "dimensions": { "width": 650, "height": 120 },
+      "font": "Arial-Bold",
+      "font_size": 90,
+      "color": "Red",
+      "default_time": 17.4,
+      "show_till": 21.82,
+      "speech_tolerance": 2,
+      "animated_box": {
+        "enabled": true,
+        "color": [255, 255, 255],
+        "line_width": 10,
+        "duration": 1
+      }
+    },
+    {
+      "name": "all_the_best",
+      "text": "All the Best!",
+      "position": { "x": 190, "y": 500 },
+      "dimensions": { "width": 700, "height": 120 },
+      "font": "Arial-Bold",
+      "font_size": 90,
+      "color": "Red",
+      "default_time": 17.4,
+      "show_till": 21.82,
+      "animated_box": {
+        "enabled": true,
+        "color": [255, 255, 255],
+        "line_width": 10,
+        "duration": 1
+      }
+    },
+    {
+      "name": "scholarship_1",
+      "field_name": "scholarship",
+      "position": { "x": 315, "y": 500 },
+      "dimensions": { "width": 450, "height": 150 },
+      "font": "Arial-Bold",
+      "font_size": 120,
+      "color": "Yellow",
+      "default_time": 9.67,
+      "speech_tolerance": 0.2,
+      "show_till": 11.6,
+      "animated_box": {
+        "enabled": true,
+        "color": [255, 255, 255],
+        "line_width": 12,
+        "duration": 1
+      }
+    }
+  ],
+  "template_selection_key": "performance",
+  "backgrounds": {
+    "performance": {
+      "top": "top.mp4",
+      "average": "average.mp4",
+      "poor": "poor.mp4",
+      "default": "top.mp4"
+    },
+    "gender": {
+      "Male": "male_background.mp4",
+      "Female": "female_background.mp4",
+      "default": "neutral_background.mp4"
+    }
+  },
+  "tolerance": 0.5,
+   
+  "audio_segments": [
+  { 
+      "segment_name": "Intro",
+      "start_time": 0,
+      "speech_text": "<speak><p>नमस्ते <mark name=\"parent_name_1\"/><break time=\"200ms\"/> <lang xml:lang=\"en-IN\">{parent_name}</lang> जी,</p><p>कई IIT और NEET टॉपर्स ने अपनी सफलता की शुरुआत <emphasis>Matrix Olympiad</emphasis> से की है।</p></speak>"
+    },    
+    {
+      "segment_name": "Last year",
+      "start_time": 5.8,
+      "speech_text": "<speak> <p><mark name=\"student_name_1\"/><break time=\"200ms\"/> <lang xml:lang=\"en-IN\">{student_name}</lang> ने पिछले साल शानदार प्रदर्शन किया था</p><p> जिससे उसे <mark name=\"scholarship_1\"/><break time=\"200ms\"/> <lang xml:lang=\"en-IN\">{scholarship}</lang> स्कॉलरशिप मिली।</p></speak>"
+    },
+    {
+      "segment_name": "This year",
+      "start_time":11.7,
+      "speech_text":"<speak><p>अब <emphasis>Matrix Olympiad 2024</emphasis> शुरू हो चुका है, और 1 लाख से ज़्यादा कैंडिडेट्स पहले ही register कर चुके हैं।</p><p><mark name=\"student_name_2\"/><break time=\"200ms\"/> <lang xml:lang=\"en-IN\">{student_name}</lang> के पास इस साल अपनी मेहनत को और आगे बढ़ाने का बेहतरीन मौका है।</p></speak>" 
+    },
+    {
+      "segment_name": "All the best",
+      "start_time":22,
+      "speech_text":"<speak><p>नीचे दिए गए बटन पर क्लिक करें और <mark name=\"student_name_3\"/><break time=\"200ms\"/> <lang xml:lang=\"en-IN\">{student_name}</lang> का registration शुरू करें।</p></speak>" 
+    }
+  ]
+}

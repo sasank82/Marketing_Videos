@@ -1,0 +1,12 @@
+{
+  "pitch": 0.0,
+  "volume_gain_db": 0.0,
+  "speaking_rate": 1.0,
+  "sample_rate_hertz": 24000,
+  "effects_profile_id": "telephony-class-application",
+  "audio_encoding": "MP3",
+  "language_code": "en-IN",
+  "voice_name": "en-IN-Wavenet-A",
+  "bucket_name": "voiceovers_tezzaract"
+}
+

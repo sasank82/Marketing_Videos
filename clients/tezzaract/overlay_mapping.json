@@ -1,0 +1,22 @@
+{
+  "name": {
+    "column_name": "Name",
+    "processing": "name"
+  },
+  "loan_amount": {
+    "column_name": "Loan Amount",
+    "processing": "indian_currency"
+  },
+  "business_name": {
+    "column_name": "Business Name",
+    "processing": "sanitize"
+  },
+  "city": {
+    "column_name": "City",
+    "processing": "sanitize"
+  },
+  "amount_in_words": {
+    "column_name": "Amount in Words",
+    "processing": "sanitize"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "overlays": [
+    {
+      "name": "name",
+      "position": {"x": 260, "y": 210},
+      "dimensions": {"width": 706, "height": 200},
+      "font": "Arial-Bold",
+      "font_size": 120,
+      "color": "#FB37B5",
+      "default_time": 0.5,
+      "animated_box": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "loan_amount",
+      "position": {"x": 110, "y": 715},
+      "dimensions": {"width": 540, "height": 200},
+      "font": "Arial-Bold",
+      "font_size": 105,
+      "color": "#FB37B5",
+      "default_time": 6.5,
+      "animated_box": {
+        "enabled": false
+      }
+    },
+    {
+      "name": "business_name",
+      "position": {"x": 75, "y": 1300},
+      "dimensions": {"width": 930, "height": 300},
+      "font": "Arial-Bold",
+      "font_size": 90,
+      "color": "#FB37B5",
+      "default_time": 12.5,
+      "animated_box": {
+        "enabled": true,
+        "color": [255, 255, 255],
+        "line_width": 10,
+        "duration": 3
+      }
+    }
+  ],
+  "template_selection_key": "city",
+  "backgrounds": {
+    "city": {
+      "Hyderabad": "hyderabad.mp4",
+      "Bengaluru": "bengaluru.mp4",
+      "Kolkata": "kolkata.mp4",
+      "Mumbai": "mumbai.mp4",
+      "Delhi": "delhi.mp4",
+      "Pune": "pune.mp4",
+      "Ahmedabad": "ahmedabad.mp4",
+      "default": "default.mp4"
+    },
+    "gender": {
+      "Male": "male_background.mp4",
+      "Female": "female_background.mp4",
+      "default": "neutral_background.mp4"
+    }
+  }
+}
